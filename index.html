@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueByte — Веброзробка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="logo.png" alt="BlueByte logo" class="logo">
+            <nav class="nav">
+                <a href="#services">Послуги</a>
+                <a href="#portfolio">Портфоліо</a>
+                <a href="#contacts">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>BlueByte</h1>
+            <p>Створюємо сучасні вебрішення для бізнесу</p>
+            <a href="#contacts" class="btn">Зв’язатися</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наші послуги</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Розробка сайтів</h3>
+                    <p>Створення сайтів будь-якої складності — від візиток до корпоративних порталів.</p>
+                </div>
+                <div class="card">
+                    <h3>UI/UX дизайн</h3>
+                    <p>Мінімалістичні та зручні інтерфейси, які працюють на користь вашому бренду.</p>
+                </div>
+                <div class="card">
+                    <h3>Підтримка</h3>
+                    <p>Технічна підтримка, оновлення та оптимізація існуючих проєктів.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Наше портфоліо</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="project1.jpg" alt="Проект 1">
+                    <h3>Корпоративний сайт для TechCorp</h3>
+                </div>
+                <div class="card">
+                    <img src="project2.jpg" alt="Проект 2">
+                    <h3>Інтернет-магазин для ShopEasy</h3>
+                </div>
+                <div class="card">
+                    <img src="project3.jpg" alt="Проект 3">
+                    <h3>Лендінг для StartUpX</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Контакти</h2>
+            <p>Напишіть нам, і ми відповімо найближчим часом</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Ваше ім’я" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше повідомлення" required></textarea>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 BlueByte. Усі права захищено.</p>
+        </div>
+    </footer>
+</body>
+</html>
